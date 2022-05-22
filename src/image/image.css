@@ -1,0 +1,11 @@
+.image-string {
+	background: url('./image.jpg');
+}
+
+.image-word {
+	background: url(./image.jpg);
+}
+
+.image-alias {
+	background: url(@/image/image.jpg);
+}

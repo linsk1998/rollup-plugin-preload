@@ -1,0 +1,42 @@
+{
+	"name": "rollup-plugin-preload",
+	"version": "0.0.0",
+	"description": "Preload static imports of a chunk when it is dynamically imported",
+	"main": "index.js",
+	"scripts": {
+		"test": "rollup -c"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/linsk1998/rollup-plugin-preload.git"
+	},
+	"keywords": [
+		"preload",
+		"css",
+		"chunk"
+	],
+	"author": "linsk",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/linsk1998/rollup-plugin-preload/issues"
+	},
+	"homepage": "https://github.com/linsk1998/rollup-plugin-preload#readme",
+	"dependencies": {
+		"@rollup/pluginutils": "^4.2.0",
+		"cssnano": "^5.1.8",
+		"estree-walker": "^1.0.1",
+		"magic-string": "^0.25.5",
+		"postcss": "^8.4.14",
+		"postcss-modules": "^4.3.1",
+		"postcss-value-parser": "^4.2.0",
+		"rollup-dependency-tree": "^0.0.14"
+	},
+	"devDependencies": {
+		"@rollup/plugin-alias": "^3.1.9",
+		"rollup-plugin-delete": "^2.0.0"
+	},
+	"files": [
+		"index.js",
+		"css/"
+	]
+}

@@ -1,0 +1,18 @@
+@import "./import";
+@import "@/sass/import-alias";
+@import "./variables";
+@import "./import-common";
+
+.scss {
+	color: #fff;
+
+	.variable {
+		color: $variable;
+	}
+
+	.primary {
+		color: $primary;
+	}
+
+	background: url(../image/image.jpg);
+}

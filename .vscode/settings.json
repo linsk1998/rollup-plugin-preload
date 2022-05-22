@@ -1,0 +1,24 @@
+{
+	"path-autocomplete.pathMappings": {
+		"@": "${folder}/src"
+	},
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
+	"editor.renderControlCharacters": true,
+	"editor.insertSpaces": false,
+	"vetur.format.options.useTabs": true,
+	"vetur.format.options.tabSize": 4,
+	"editor.tabSize": 4,
+	"editor.renderWhitespace": "all",
+	"editor.formatOnType": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"javascript.format.semicolons": "insert",
+	"javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+	"javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+	"typescript.format.semicolons": "insert",
+	"typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+	"typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+	"editor.wordWrap": "on"
+}
