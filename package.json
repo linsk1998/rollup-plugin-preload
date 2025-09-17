@@ -3,10 +3,6 @@
 	"version": "1.0.0",
 	"description": "Preload chunk when it is dynamically imported",
 	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/linsk1998/rollup-plugin-preload.git"
-	},
 	"keywords": [
 		"preload",
 		"dynamic",
@@ -14,10 +10,18 @@
 	],
 	"author": "linsk",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/linsk1998/rollup-plugin-preload.git"
+	},
 	"bugs": {
 		"url": "https://github.com/linsk1998/rollup-plugin-preload/issues"
 	},
 	"homepage": "https://github.com/linsk1998/rollup-plugin-preload#readme",
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
 	"peerDependencies": {
 		"rollup": ">=4.0.0"
 	}
