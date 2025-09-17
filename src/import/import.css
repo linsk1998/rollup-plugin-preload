@@ -1,8 +1,0 @@
-@import "./import-dep.css";
-@import url("./import-url.css");
-@import url("@/import/import-alias.css");
-@import url("./import-common.css");
-
-.import {
-	color: #FFF;
-}
